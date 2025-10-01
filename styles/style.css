@@ -120,8 +120,16 @@ p {
 /* hero */
 
 .hero {
-  background-image: url("header-bike.jpg");
+  aspect-ratio: 730 / 362;
+  background-image: url("../images/header-bike.jpg");
   background-color: var(--grey-light);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2rem;
 }
 
 .hero h1 {
@@ -163,6 +171,11 @@ p {
 
 .article {
   margin-bottom: 1rem;
+  &.flex{
+    display:flex;
+    align-items: center;
+    gap:1rem;
+  }
 }
 
 .article__title {
