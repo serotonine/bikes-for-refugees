@@ -10,6 +10,7 @@
   --grey-light: #e4e4e4;
   --orange-dark: #c05326;
   --orange-light: #f7eae4;
+  --blue-sky: #00bfff;
   --white: #fff;
   --border-radius: 4px;
 }
@@ -122,6 +123,7 @@ p {
   &.btn-red {
     background-color: var(--orange-dark);
     color: var(--white);
+
     &:hover,
     &:focus,
     &:active {
@@ -305,6 +307,10 @@ p {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.bg-blue {
+  background-color: var(--blue-sky);
 }
 
 /* Media queries */
